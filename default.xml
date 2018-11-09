@@ -9,6 +9,10 @@
            fetch="https://github.com/Viper-Project/"
            revision="nougat" />
 
+   <remote name="extended"
+           fetch="https://github.com/ViperOS-Extended/"
+           revision="nougat" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
