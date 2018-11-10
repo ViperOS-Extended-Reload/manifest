@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Begin ViperOS-Extended Additions -->
-    <project path="build" name="android_build" remote="viper">
+    <project path="build" name="android_build" remote="extended">
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="development" name="android_development" remote="viper" />
