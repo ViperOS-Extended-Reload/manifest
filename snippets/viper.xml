@@ -5,59 +5,59 @@
     <project path="build" name="android_build" remote="extended">
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
-    <project path="development" name="android_development" remote="viper" />
+    <project path="development" name="android_development" remote="extended" />
     <project path="manifest" name="manifest" remote="extended" />
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="viper" />
-    <project path="device/qcom/common" name="android_device_qcom_common" remote="viper" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="extended" />
+    <project path="device/qcom/common" name="android_device_qcom_common" remote="extended" />
 
     <!-- Frameworks -->
     <project path="frameworks/base" name="android_frameworks_base" remote="extended" />
     <project path="frameworks/native" name="android_frameworks_native" remote="extended" />
-    <project path="frameworks/support" name="android_frameworks_support" remote="viper" />
-    <project path="frameworks/opt/setupwizard" name="android_frameworks_opt_setupwizard" remote="viper" />
+    <project path="frameworks/support" name="android_frameworks_support" remote="extended" />
+    <project path="frameworks/opt/setupwizard" name="android_frameworks_opt_setupwizard" remote="extended" />
 
     <!-- Apps -->
-    <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="viper" />
+    <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="extended" />
     <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="extended" />
-    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="viper" />
-    <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="viper" />
-    <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="viper" />
-    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="viper" />
-    <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="viper" />
-    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="viper" />
-    <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="viper" />
-    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="viper" />
-    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="viper" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="viper" />
-    <project path="packages/apps/Venom" name="android_packages_apps_Venom" remote="viper" />
-    <project path="packages/apps/ViperOTA" name="android_packages_apps_ViperOTA" remote="viper" />
-    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="viper" />
-    <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="viper" />
-    <project path="packages/apps/DSPlibs" name="android_packages_apps_DSPlibs" remote="viper" />
-    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="viper" />
-    <project path="packages/services/Car" name="android_packages_services_Car" remote="viper" />
-    <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="viper" />
-    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="viper" />
+    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="extended" />
+    <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="extended" />
+    <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="extended" />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="extended" />
+    <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="extended" />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="extended" />
+    <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="extended" />
+    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="extended" />
+    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="extended" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="extended" />
+    <project path="packages/apps/Venom" name="android_packages_apps_Venom" remote="extended" />
+    <project path="packages/apps/ViperOTA" name="android_packages_apps_ViperOTA" remote="extended" />
+    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="extended" />
+    <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="extended" />
+    <project path="packages/apps/DSPlibs" name="android_packages_apps_DSPlibs" remote="extended" />
+    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="extended" />
+    <project path="packages/services/Car" name="android_packages_services_Car" remote="extended" />
+    <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="extended" />
+    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="extended" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="viper" />
+    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="extended" />
 
     <!-- Services -->
-    <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="viper" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="viper" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="viper" />
-    <project path="packages/services/ThemeInterfacer" name="android_packages_services_ThemeInterfacer" remote="viper" />
+    <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="extended" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="extended" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="extended" />
+    <project path="packages/services/ThemeInterfacer" name="android_packages_services_ThemeInterfacer" remote="extended" />
 
     <!-- System -->
     <project path="system/core" name="android_system_core" remote="extended" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="extended" />
-    <project path="system/media" name="android_system_media" remote="viper" />
+    <project path="system/media" name="android_system_media" remote="extended" />
 
     <!-- Vendor -->
-    <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="viper" />
+    <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="extended" />
     <project path="vendor/viper" name="android_vendor_viper" remote="extended" />
 
     <!-- Reference projects -->
-    <project path="packages/apps/VPapers" name="android_packages_apps_VPapers" remote="viper" />
+    <project path="packages/apps/VPapers" name="android_packages_apps_VPapers" remote="extended" />
 
 </manifest>
