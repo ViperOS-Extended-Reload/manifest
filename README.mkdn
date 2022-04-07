@@ -1,37 +1,37 @@
-ViperOs Project
-===============
+<div align="center">
+<h1>ViperOS Extended Reload</h1>
+</br>
+<strong><i> The venom you feel in your vein is now much stronger. </i></strong>
+</br>
 
-![ViperOS](http://i.imgur.com/bwSVDSV.png)
+Getting started
+---------------
+To get started with Android/ViperOS, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+  
+Credits
+-------
+- [**LineageOS**](https://github.com/LineageOS)
+- [**ViperOS**](https://github.com/ViperOS)
+- [**ViperOS Extended**](https://github.com/ViperOS-Extended)
+*********
+<a href="https://twitter.com/WindowZ414">
+<img src="https://img.shields.io/badge/Developer-Twitter-blue?style=for-the-badge">
+</a>
 
-Download the Source
-===================
+To initialize your local repository using your trees, use a command like this:  
+```
+repo init --depth=1 -u git://github.com/ViperOS-Extended-Reload/manifest.git -b nougat
+```
+Then to sync up:
+```
+repo sync
+```
+And to start build:
+```
+. build/envsetup.sh
+lunch viper_<devicecodename>-userdebug
+mka venom
+```
 
-Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
-
-Initializing Repository
------------------------
-
-Initiate core trees without any device/kernel/vendor:
-
-    $ repo init -u https://github.com/ViperOS-Extended/manifest -b nougat
-
-Sync the repository:
-
-    $ repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
-
-***
-
-Building
---------
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
-
-    . build/envsetup.sh
-    lunch
-
-You can also build for specific devices (eg. hammerhead) like this:
-
-    . build/envsetup.sh
-    lunch viper_hammerhead-userdebug
-    mka poison
-
-Remember to `make clobber && make clean` every now and then!
+Brought back to life by Beru Shinsetsu with 🔥.
