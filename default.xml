@@ -13,6 +13,10 @@
            fetch="https://github.com/ViperOS-Extended/"
            revision="nougat" />
 
+  <remote  name="reload"
+           fetch="https://github.com/ViperOS-Extended-Reload/"
+           revision="nougat" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
